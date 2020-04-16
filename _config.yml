@@ -21,10 +21,11 @@
 title: Kun Shao
 email: kunshao@example.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Kun Shao is experimenting with GitHub Pages.
+  Kun is experimenting with GitHub Pages.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-github_username:  kunshao
+linkedin_username:  kunshao
+instagram_username:  karenumich
 
 # Build settings
 theme: minima
