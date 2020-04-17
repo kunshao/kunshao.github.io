@@ -1,3 +1,23 @@
 [
-    {"name": "Seattle", "coordinates": [47.6, -122.3]}
+    {"name": "Beijing",     "latlng": [39.9042, 116.4074]},
+    {"name": "Tianjin",     "latlng": [39.3434, 117.3616]},
+    {"name": "Harbin",      "latlng": [45.8038, 126.5350]},
+    {"name": "Dalian",      "latlng": [38.9140, 121.6147]},
+    {"name": "Qinhuangdao", "latlng": [39.9354, 119.6005]},
+    {"name": "Weihai",      "latlng": [37.5131, 122.1204]},
+    {"name": "Shanghai",    "latlng": [31.2304, 121.4737]},
+    {"name": "Suzhou",      "latlng": [31.2990, 120.5853]},
+    {"name": "Shaoxing",    "latlng": [29.9958, 120.5861]},
+    {"name": "Hangzhou",    "latlng": [30.2741, 120.1551]},
+    {"name": "Zhengzhou",   "latlng": [34.7466, 113.6253]},
+    {"name": "Xian",        "latlng": [34.3416, 108.9398]},
+    {"name": "Datong",      "latlng": [40.0768, 113.3001]},
+    {"name": "Xiamen",      "latlng": [24.4798, 118.0894]},
+    {"name": "Nanning",     "latlng": [22.8170, 108.3665]},
+    {"name": "Kunming",     "latlng": [24.8801, 102.8329]},
+    {"name": "Dali",        "latlng": [27.7659, -82.6316]},
+    {"name": "Lijiang",     "latlng": [26.8550, 100.2278]},
+    {"name": "Chiangmai",   "latlng": [18.7953, 98.9620]},
+    {"name": "Bangkok",     "latlng": [13.7563, 100.5018]},
+    {"name": "Seattle",     "latlng": [47.6062, -122.3321]}
 ]
