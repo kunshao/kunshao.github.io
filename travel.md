@@ -5,7 +5,7 @@ permalink: /travel/
 ---
 
 <link rel="stylesheet" href="/assets/css/style.css">
-<h3></h3>
+<h5>"The world is a book, and those who do not travel read only a page." – Saint Augustine</h5>
 <!--The div element for the map -->
 <div id="map"></div>
 <!-- Replace the value of the key parameter with your own API key. -->
@@ -27,13 +27,19 @@ permalink: /travel/
         var geocoder = new google.maps.Geocoder();
         $.getJSON("/cities.json", function(cities) {
             var markers = cities.map(function(city, i) {
-                        var latlng = { lat: parseFloat(city.latlng[0]), lng: parseFloat(city.latlng[1])};
-                        return new google.maps.Marker({
+                        var latlng = { lat: parseFloat(city.latlng[0]), lng: parseFloat(city.latlng[1])};                   
+                        var imageString = `<img class='city-image' src='/assets/img/${city.name}.jpg'/>`;
+                        var imagewindow = new google.maps.InfoWindow({
+                            content: imageString
+                        });
+                        var marker = new google.maps.Marker({
                             map: map,
                             position: latlng,
                             animation: google.maps.Animation.DROP,
                             title: city.name,
                         });
+                        imagewindow.open(map, marker);
+                        return marker;
                     });            
             var markerCluster = new MarkerClusterer(map, markers,
                     {imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'});
