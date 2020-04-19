@@ -5,7 +5,7 @@ permalink: /travel/
 ---
 
 <link rel="stylesheet" href="/assets/css/style.css">
-<h5>"Travel makes one modest, you see what a tiny place you occupy in the world." - Gustave Flaubert</h5>
+<h4>"I haven’t been everywhere, but it’s on my list." - Susan Sontag</h4>
 <!--The div element for the map -->
 <div id="map"></div>
 <!-- Replace the value of the key parameter with your own API key. -->
@@ -28,17 +28,19 @@ permalink: /travel/
         $.getJSON("/cities.json", function(cities) {
             var markers = cities.map(function(city, i) {
                         var latlng = { lat: parseFloat(city.latlng[0]), lng: parseFloat(city.latlng[1])};                   
-                        var imageString = `<img class='city-image' src='/assets/img/${city.name}.jpg'/>`;
+                        var imageString = `<span>${city.name.replace('_', ' ')}</span><br><img class='city-image' src='/assets/img/${city.name}.jpg'/>`;
                         var imagewindow = new google.maps.InfoWindow({
                             content: imageString
                         });
                         var marker = new google.maps.Marker({
                             map: map,
                             position: latlng,
-                            animation: google.maps.Animation.DROP,
                             title: city.name,
                         });
                         imagewindow.open(map, marker);
+                        marker.addListener('click', function() {
+                            imagewindow.open(map, marker);
+                        });
                         return marker;
                     });            
             var markerCluster = new MarkerClusterer(map, markers,
