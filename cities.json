@@ -33,7 +33,7 @@
     {"name": "Tianjin",                 "latlng": [39.3434, 117.3616]},
     {"name": "Turks_and_Caicos_Islands",                    "latlng": [21.6940, -71.7979]},
     {"name": "Vatican_City",            "latlng": [41.9029, 12.4534]}, 
-    {"name": "Victoria",                "latlng": [48.4284, 123.3656]}, 
+    {"name": "Victoria",                "latlng": [48.4284, -123.3656]}, 
     {"name": "Whistler",                "latlng": [50.1163, -122.9574]},
     {"name": "Xiamen",                  "latlng": [24.4798, 118.0894]},
     {"name": "Yellowstone_National_Park",                   "latlng": [44.4280, -110.5885]}

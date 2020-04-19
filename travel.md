@@ -16,11 +16,11 @@ permalink: /travel/
     // Initialize and add the map
     function initMap() {
         // The location of Seattle
-        var seattle = {lat: 47.606, lng: -122.332};
+        var frankfurt = {lat: 50.1109, lng: 8.6821};
         // The map, centered at Seattle
         var mapOptions = {
-            zoom: 1, 
-            center: seattle
+            zoom: 3, 
+            center: frankfurt
         }
         var map = new google.maps.Map(
         document.getElementById('map'), mapOptions);
