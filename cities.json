@@ -8,16 +8,21 @@
     {"name": "Florence",                "latlng": [43.7696, 11.2558]},
     {"name": "Fort_Lauderdale",         "latlng": [26.1224, -80.1373]},
     {"name": "Frankfurt",               "latlng": [50.1109, 8.6821]},
+    {"name": "Grand_Teton_National_Park",                "latlng": [43.7904, -110.6818]},
     {"name": "Gulangyu",                "latlng": [24.4463, 118.0662]},
     {"name": "Mexico_City",             "latlng": [19.4326, -99.1332]},
     {"name": "Munich",                  "latlng": [48.1351, 11.5820]},
+    {"name": "North_Cascades_National_Park",                "latlng": [48.7718, -121.2985]},
     {"name": "Orlando",                 "latlng": [28.5383, -81.3792]},
     {"name": "Pisa",                    "latlng": [43.7228, 10.4017 ]},
     {"name": "Rome",                    "latlng": [41.9028, 12.4964]},       
+    {"name": "San_Francisco",           "latlng": [37.7749, -122.4194]}, 
     {"name": "Seattle",                 "latlng": [47.6062, -122.3321]}, 
     {"name": "Sun_Valley",              "latlng": [43.6971, -114.3517]}, 
     {"name": "Tianjin",                 "latlng": [39.3434, 117.3616]},
     {"name": "Vatican_City",            "latlng": [41.9029, 12.4534]}, 
     {"name": "Whistler",                "latlng": [50.1163, -122.9574]},
-    {"name": "Xiamen",                  "latlng": [24.4798, 118.0894]}
+    {"name": "Xiamen",                  "latlng": [24.4798, 118.0894]},
+    {"name": "Yellowstone_National_Park",                "latlng": [44.4280, -110.5885]}
+
 ]

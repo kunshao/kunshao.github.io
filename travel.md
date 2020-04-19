@@ -5,7 +5,7 @@ permalink: /travel/
 ---
 
 <link rel="stylesheet" href="/assets/css/style.css">
-<h5>"The world is a book, and those who do not travel read only a page." – Saint Augustine</h5>
+<h5>"Travel makes one modest, you see what a tiny place you occupy in the world." - Gustave Flaubert</h5>
 <!--The div element for the map -->
 <div id="map"></div>
 <!-- Replace the value of the key parameter with your own API key. -->
