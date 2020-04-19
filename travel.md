@@ -28,7 +28,7 @@ permalink: /travel/
         $.getJSON("/cities.json", function(cities) {
             var markers = cities.map(function(city, i) {
                         var latlng = { lat: parseFloat(city.latlng[0]), lng: parseFloat(city.latlng[1])};                   
-                        var imageString = `<span>${city.name.replace('_', ' ')}</span><br><img class='city-image' src='/assets/img/${city.name}.jpg'/>`;
+                        var imageString = `<span>${city.name.replace(/\_/g, ' ')}</span><br><img class='city-image' src='/assets/img/${city.name}.jpg'/>`;
                         var imagewindow = new google.maps.InfoWindow({
                             content: imageString
                         });
